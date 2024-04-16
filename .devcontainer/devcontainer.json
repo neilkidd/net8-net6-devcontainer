@@ -20,7 +20,8 @@
                 "ms-dotnettools.vscode-dotnet-runtime",
                 "ms-dotnettools.csdevkit",
                 "ms-dotnetools.csharp",
-                "editorconfig.editorconfig"
+                "editorconfig.editorconfig",
+                "MS-vsliveshare.vsliveshare"
             ]
         }
     },
