@@ -16,10 +16,12 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "GitHub.vscode-github-actions",
-                "ms-dotnettools.vscode-dotnet-runtime",
                 "ms-dotnettools.csdevkit",
-                "ms-dotnetools.csharp",
+                "ms-dotnettools.dotnet-interactive-vscode",
+                "tintoy.msbuild-project-tools",
+                "icsharpcode.ilspy-vscode",
+                "humao.rest-client",
+                "GitHub.vscode-github-actions",
                 "editorconfig.editorconfig",
                 "MS-vsliveshare.vsliveshare"
             ]
