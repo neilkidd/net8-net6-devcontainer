@@ -7,8 +7,10 @@
 #     'set-executionpolicy remotesigned', then this script
 
 dotnet new sln --output QuickKata
-dotnet new nunit --output QuickKata/Tests
-dotnet add QuickKata/Tests/Tests.csproj package Moq
-dotnet sln QuickKata add QuickKata/Tests
 dotnet new classlib --output QuickKata/App
 dotnet sln QuickKata add QuickKata/App
+dotnet new nunit --output QuickKata/Tests
+dotnet add QuickKata/Tests/Tests.csproj package Moq
+dotnet add QuickKata/Tests/Tests.csproj reference QuickKata/App/App.csproj
+dotnet sln QuickKata add QuickKata/Tests
+
