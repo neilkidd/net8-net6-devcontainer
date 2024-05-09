@@ -18,6 +18,7 @@
             "extensions": [
                 "ms-dotnettools.csdevkit",
                 "ms-dotnettools.dotnet-interactive-vscode",
+                "ms-dotnettools.vscodeintellicode-csharp",
                 "tintoy.msbuild-project-tools",
                 "icsharpcode.ilspy-vscode",
                 "humao.rest-client",
